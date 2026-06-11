@@ -22,3 +22,8 @@ Open it in any browser to see the result.
 ## 📬 Contact
 
 🔗 [GitHub.com/sehfz](https://github.com/sehfz)
+
+
+
+
+> **Disclaimer:** All projects here are for educational use only. All media (images, logos, etc.) are property of their respective owners. No copyright infringement intended.
