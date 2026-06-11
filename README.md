@@ -26,4 +26,4 @@ Open it in any browser to see the result.
 
 
 
-⚠️ **Educational Use Only** — All trademarks and media are property of their respective owners.
+> **Disclaimer:** All projects here are for educational use only. All media (images, logos, etc.) are property of their respective owners. No copyright infringement intended.
