@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> login page </title>
+   
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        
+        .login-container{
+            background-color: white;
+            padding: 32px;
+            border-radius: 20px;
+            box-shadow:0 20px 40px rgba(0, 0, 0, 0.3) ;
+            width: 350px;
+        }
+        h1{
+            text-align: center;
+            color: #2d3436;
+        }
+        .form-group{
+            border-radius: 14px;
+            margin-bottom: 16px;
+        }
+
+        input{
+            width: 100%;
+            border: 2px solid #dfe6e9;
+            border-radius: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            padding:12px;
+
+
+        }
+
+        input:focus{
+            transform: scale(1.02);
+            border-color: #667eea;
+            outline: none;
+           
+        }
+        label {
+            display:block;
+            font-weight: 600;
+            color: #2d3436;
+        }
+        button{
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 8px;            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        button:hover{
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(102, 126,234,0.4);
+
+        }
+        .forget-link a{
+            text-decoration: none;
+            color: #667eea;
+            font-size: 14px;
+    
+        }
+        .forget-link{
+            text-align: center;
+            margin-top: 15px;
+        }
+        .forget-link a:hover{
+            text-decoration: underline;
+        }
+
+
+        
+
+    </style>
+
+
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        
+        <form>
+            <div class="form-group">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div><br>
+            
+            <div class="form-group">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div><br>
+
+            <button type="submit">Sign In</button>
+            <p class="forget-link"><a href="#">Forgot password</a></p>
+        </form>
+    </div>
+</body>
+</html>
